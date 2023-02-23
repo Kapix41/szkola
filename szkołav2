@@ -1,0 +1,46 @@
+course = "  Python Programing"
+print(course.upper()) # komenda upper pisze wszystko z capslocka
+print(course.lower()) #lower wszystko z malej
+print(course.title()) # title pisze z dużej litery
+print(course.lstrip()) # lstirp wycina spacje l jak z lewej i r jak z prawej
+print(course.find("Pro")) #find znajduje dany wyraz
+print(course.replace("P", "x")) # replace zamienia literki miejscami
+print("Pro" in course) # sprawdza czy "pro" jest w zdaniu
+print("swifh" not in course) # sprawdza czy "swifh" nie jest w zdaniu
+
+print(10 / 3) # dzieli
+print(10 // 3) # zaokrągla
+print(10 % 3) # reszta
+print(10 ** 3) # potęga
+
+import math
+
+print(round(2.9)) # zaokrągla
+print(abs(-2.9)) #  wartośc bezwzględna
+
+print(math.ceil(2.2)) # zaokrągla do góry
+print(math.floor(2.6)) #zaokrągla  do dołu
+
+print( "bag" > "apple" )
+print(ord("B")) # sprawdza wartosc litery w tabeli
+
+zmienna = 1220
+
+if zmienna == 120:
+    print ("nie git")
+elif zmienna == 130: #inaczej else if
+    print("git")
+else:
+    print("bardziej git")
+
+wiek = int(input("podaj wiek"))
+
+if wiek >= 18:
+    print("pij")
+else:
+    print("sory")
+
+
+for zmienna in range(3):
+    print(zmienna)
+    
