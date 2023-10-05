@@ -1,0 +1,15 @@
+
+uczniowie=["Adam", "Ola", "Marek"]
+oceny=[0,0,0]
+
+def dodaj_ocene(uczniowie,oceny):
+      oceny.insert(uczniowie.index(uczen), str(oceny[uczniowie.index(uczen)])+", "+str(ocena))
+      return True
+while True:
+      a=input("Podaj imie ucznia: ")
+      if a == "druk":
+            for i in uczniowie:
+                  print(i+oceny[uczniowie.index(i)])
+      b=input("Podaj ocene: ")
+      dodaj_ocene(a,b)
+
